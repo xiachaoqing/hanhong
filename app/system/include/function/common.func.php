@@ -807,7 +807,6 @@ function halt($msg = '')
     echo "<html><head><title>MetInfo</title><style type='text/css'>P,BODY{FONT-FAMILY:tahoma,arial,sans-serif;FONT-SIZE:10px;}A { TEXT-DECORATION: none;}a:hover{ text-decoration: underline;}TD { BORDER-RIGHT: 1px; BORDER-TOP: 0px; FONT-SIZE: 16pt; COLOR: #000000;}</style><body>\n\n";
     echo "<table style='TABLE-LAYOUT:fixed;WORD-WRAP: break-word'><tr><td>";
     echo "<b>{$msg}<br><br>";
-    echo "<b>You Can Get Help In</b>:<br><a href='https://www.metinfo.cn'>https://www.metinfo.cn</a>";
     echo '</td></tr></table>';
     die();
 }
